@@ -1,0 +1,28 @@
+html{
+    background-color: rgb(255, 255, 215);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+.imgsorte{
+    
+    width: 20vw;
+}
+.frasesorte{
+    color: rgb(17, 138, 97);
+    font-family: sans-serif;
+}
+.botao{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.botao:active{
+filter: brightness(0.9);
+}
